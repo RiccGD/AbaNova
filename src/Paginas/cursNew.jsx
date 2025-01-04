@@ -1,21 +1,18 @@
 import {Style} from "./.css";
 import {Cabechalho} from "../Componentes/Cabe"
-import {LinkCur} from "../Componentes/CurComp"
+import {Note} from "../Componentes/NoteComp"
 
-function Inicial() {
+function Cursos() {
     return (
     <>
        <Cabechalho />
 
-       <div className="organiLin">
-         <LinkCur/>
-         <LinkCur/>
-         <LinkCur/>
-         <LinkCur/>
-       </div>
        <div>
          <Note/>
        </div>
+       <div className="organiLin">
+       </div>
+       
     </>
   );
 }

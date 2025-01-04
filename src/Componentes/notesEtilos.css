@@ -1,0 +1,12 @@
+.bloconota{
+    width: 93%;
+    min-height: 3rem;
+    border: 1.5px solid #000;
+    border-radius: 25%;
+    background-color: aliceblue;
+}
+
+.btnIr{
+    border: 1.5px solid #000;
+    border-radius: 25%;
+}
